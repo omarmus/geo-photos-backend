@@ -1,0 +1,4 @@
+node_modules/
+fotos.sqlite
+package-lock.json
+public/files/*

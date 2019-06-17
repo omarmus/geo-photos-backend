@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "secure": "NODE_ENV=secure nodemon index.js",
+    "start": "node index.js",
+    "seeders": "sequelize db:seed:all --seeders-path seeders"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "casual": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-asyncify": "^1.0.0",
+    "nodemon": "^1.18.10",
+    "sequelize": "^5.1.0",
+    "sequelize-handlers": "^1.0.6",
+    "sqlite3": "^4.0.6",
+    "uuid": "^3.3.2"
+  }
+}
